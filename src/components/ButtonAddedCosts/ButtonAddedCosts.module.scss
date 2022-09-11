@@ -1,0 +1,16 @@
+.buttonAddedCosts {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3aeeb2;
+  color: #000000;
+  font-weight: bold;
+
+  &:hover {
+    background-color: lighten(#7effd4, 10%);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
